@@ -51,4 +51,41 @@ Blockly.defineBlocksWithJsonArray([{
   "colour": 230,
   "tooltip": "",
   "helpUrl": ""
+},
+{
+  "type": "simpl4x_getprice_col",
+  "message0": "%1 %2",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "getPriceSymolCol",
+      "text": "EUR/USD"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "column",
+      "options": [
+        [
+          "Bid",
+          "Bid"
+        ],
+        [
+          "Ask",
+          "Ask"
+        ],
+        [
+          "High",
+          "High"
+        ],
+        [
+          "Low",
+          "Low"
+        ]
+      ]
+    }
+  ],
+  "output":"Number",
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
 }]);
